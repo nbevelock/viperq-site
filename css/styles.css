@@ -101,18 +101,17 @@ nav.navbar-vq div.container-fluid div ul.nav li a {
     color: #fff;
     position: absolute;
     max-width: 800px;
-    max-height: 584px;
-    top: 131px;
+    max-height: 68%;
+    top: 10%;
     left: 0;
     right: 0;
     margin: 0 auto;
 }
 
-.carousel-cover .row, .carousel-cover a {
-    margin: 50px 0;
-}
+.carousel-cover h1 {margin: 0;}
 
-.carousel-cover p {
+.carousel-cover .row.carousel-cover a, .carousel-cover p {
+    margin: 7%;
 }
 
 
@@ -123,7 +122,7 @@ a.carousel-control {
 }
 
 #ourwork .col-md-6 p {
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 #ourwork .col-md-6.text-left {
@@ -211,11 +210,12 @@ footer p {margin-bottom: 0;}
 @media (max-width: 767px) {
     nav.navbar-vq, .container-fluid, .navbar-brand, .navbar-header, .navbar-brand img {height: 50px; line-height: 50px;}
     #welcome-carousel, #welcome-carousel .carousel-inner, #welcome-carousel .carousel-inner img {min-height: 300px;}
-    .carousel-cover {top: 42px; font-size: .7em;}
+    .carousel-cover {top: 42px; font-size: .8em;}
     h1 {font-size: 2.2em;}
     .btn {padding: 7px 12px;}
     .btn-vq {width: 175px;}
-    .carousel-cover .row, .carousel-cover a, .carousel-cover p {margin: 5px 0;}
+    .carousel-cover .row, .carousel-cover a {margin: 5px 0;}
+    .carousel-cover .row p {font-size: .6em;}
     .carousel-cover .row {margin: 0;}
     #ourwork .col-md-6.text-left {margin-top: 0;}
 }
