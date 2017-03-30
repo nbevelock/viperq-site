@@ -110,8 +110,13 @@ nav.navbar-vq div.container-fluid div ul.nav li a {
 
 .carousel-cover h1 {margin: 0;}
 
-.carousel-cover .row.carousel-cover a, .carousel-cover p {
-    margin: 7%;
+.carousel-cover p {
+    margin: 5%;
+    font-size: 1.2em;
+}
+
+.carousel-cover p strong {
+    font-size: 1.5em;
 }
 
 
@@ -133,6 +138,8 @@ a.carousel-control {
     max-height: 100px;
 }
 
+#ourwork .quotemark {font-size: 3em;}
+#ourwork .quotetrail {font-size: 1.8em;}
 
 
 /* Team */
@@ -162,7 +169,7 @@ a.carousel-control {
     opacity: 1;
 }
 
-#team hr {margin: 0 25%; border-color: #FFF;}
+#team hr {margin: 0 15%; border-color: #FFF;}
 
 /*#team h4 {color: #b3b5b8;}*/
 
@@ -208,14 +215,26 @@ footer p {margin-bottom: 0;}
 
 
 @media (max-width: 767px) {
-    nav.navbar-vq, .container-fluid, .navbar-brand, .navbar-header, .navbar-brand img {height: 50px; line-height: 50px;}
+    nav.navbar-vq, .container-fluid, .navbar-brand, .navbar-header, .navbar-brand img {height: 40px; line-height: 40px; min-height: 0px;}
     #welcome-carousel, #welcome-carousel .carousel-inner, #welcome-carousel .carousel-inner img {min-height: 300px;}
     .carousel-cover {top: 42px; font-size: .8em;}
+    .carousel-cover p {font-size: 1em;}
     h1 {font-size: 2.2em;}
+    h2 {font-size: 2.2em;}
+    #ourwork .col-md-6 p {font-size: .8em; padding: 0 10px;}
+    #ourwork .quotemark {font-size: 2em;}
+    #ourwork .quotetrail {font-size: 1.5em;}
+    #ourwork .col-md-6 img.img-responsive {max-height: 50px;}
+    #ourwork .carousel-inner div {margin-bottom: 15px;}
+    #ourwork h3 {padding: 0 10px;}
     .btn {padding: 7px 12px;}
     .btn-vq {width: 175px;}
     .carousel-cover .row, .carousel-cover a {margin: 5px 0;}
-    .carousel-cover .row p {font-size: .6em;}
+    .carousel-cover .row p {font-size: .8em;}
     .carousel-cover .row {margin: 0;}
     #ourwork .col-md-6.text-left {margin-top: 0;}
+    #team .team-caption h3 {font-size: 1.1em;}
+    #team .team-caption h4 {font-size: .9em;}
+    #team .team-caption p {font-size: .8em;}
+    .white, .black {padding: 10px 0;}
 }
