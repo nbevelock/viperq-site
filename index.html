@@ -39,11 +39,11 @@
 <!--        Welcome          -->
         <div id="welcome-carousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
-            <ol class="carousel-indicators">
+            <!--<ol class="carousel-indicators">
                 <li data-target="#welcome-carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#welcome-carousel" data-slide-to="1"></li>
                 <li data-target="#welcome-carousel" data-slide-to="2"></li>
-            </ol>
+            </ol>-->
 
             <!-- Wrapper for slides -->
             <div>
@@ -62,27 +62,27 @@
 
             <!-- Controls -->
             <a class="left carousel-control" href="#welcome-carousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-chevron-left hidden" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#welcome-carousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-chevron-right hidden" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
             
             <div class="carousel-cover container">
                 <h1>We make innovative mobile applications.</h1>
                 <div class="row"> 
-                    <div class="col-xs-2 col-xs-offset-3">
-                        <img src="img/Icon-01.png" alt="iOS App Development" class="img-responsive">
+                    <div class="col-xs-3" style="margin-left: 4.166666665%;"> <!-- -->
+                        <img src="img/Icon-01.png" alt="iOS App Development" class="img-responsive center-block">
                         <p style="color: #79B777;"><strong>iOS</strong></p>
                     </div>
-                    <div class="col-xs-2">
-                        <img src="img/Icon-02.png" alt="iOS App Development" class="img-responsive">
+                    <div class="col-xs-3 col-xs-offset-1">
+                        <img src="img/Icon-02.png" alt="iOS App Development" class="img-responsive center-block">
                         <p style="color: #79B777;"><strong>Android</strong></p>
                     </div>
-                    <div class="col-xs-2">
-                        <img src="img/Icon-03.png" alt="iOS App Development" class="img-responsive">
+                    <div class="col-xs-3 col-xs-offset-1">
+                        <img src="img/Icon-03.png" alt="iOS App Development" class="img-responsive center-block">
                         <p style="color: #79B777;"><strong>Web</strong></p>
                     </div>
                 </div>
@@ -101,11 +101,11 @@
                 <div class="col-md-6">
                     <div id="casestudy-carousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
-                        <ol class="carousel-indicators">
+                        <!--<ol class="carousel-indicators">
                             <li data-target="#casestudy-carousel" data-slide-to="0" class="active"></li>
                             <li data-target="#casestudy-carousel" data-slide-to="1"></li>
                             <li data-target="#casestudy-carousel" data-slide-to="2"></li>
-                        </ol>
+                        </ol>-->
 
                         <!-- Wrapper for slides -->
                         <div>
@@ -134,9 +134,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-left">
-                        <img src="img/oozoo.jpg" class="img-responsive center-block">
-                        <h3><span class="sr-only">Oozoo&nbsp;</span>David Scott&nbsp;<small style="color: #B3B5B8;">Manager, ooZoo</small></h3>
-                        <p><span style="font-size: 3em;"><b>&ldquo;</b></span><span style="font-size: 1.8em;">We wanted to increase our <u>bottom line</u>.</span><br>Specifically, we wanted to do a better 
+                        <img src="img/spoon-cafe.jpg" class="img-responsive center-block">
+                        <h3><span class="sr-only">Spoon Cafe&nbsp;</span>David Scott&nbsp;<small style="color: #B3B5B8;">Manager, Spoon Cafe</small></h3>
+                        <p><span class="quotemark"><b>&ldquo;</b></span><span class="quotetrail">We wanted to increase our <u>bottom line</u>.&rdquo;</span><br>Specifically, we wanted to do a better 
                             job of filling the bar during slow hours. Their solution, the app Fomo does just that.</p>
                         <p>It boasts a large user base of bar-goers in Gainesville, acting as a <strong>direct wire between us and our best customers</strong>.
                             With Fomo, we send promotions and advertisements to a highly interested segment instantly through push 
@@ -152,7 +152,7 @@
         <div id="team" class="jumbotron black">
             <h2>Meet the team</h2>
             <div class="row">
-                <div class="col-sm-4 col-xs-6 team-img"><img class="img-responsive center-block" src="img/jimmy.jpg">
+                <div class="col-sm-4 col-xs-6 team-img"><img class="img-responsive" src="img/jimmy.jpg">
                     <div class="imgOverlay">
                         <div class="team-caption">
                             <h3>Jimmy</h3>
@@ -212,6 +212,36 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-4 col-xs-6 team-img"><img class="img-responsive" src="img/joe.jpg">
+                    <div class="imgOverlay">
+                        <div class="team-caption">
+                            <h3>Joe</h3>
+                            <h4><strong>Financial Analyst</strong></h4>
+                            <hr>
+                            <p>He can explain to you what "debit" and "credit" actually mean.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 team-img"><img class="img-responsive" src="img/kendal.jpg">
+                    <div class="imgOverlay">
+                        <div class="team-caption">
+                            <h3>Kendal</h3>
+                            <h4><strong>User Experience Architect</strong></h4>
+                            <hr>
+                            <p>Our developers make Ferarris. She paints them bright red.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 team-img"><img class="img-responsive" src="img/nick.jpg">
+                    <div class="imgOverlay">
+                        <div class="team-caption">
+                            <h3>Nick</h3>
+                            <h4><strong>Marketing Lead</strong></h4>
+                            <hr>
+                            <p>Banned from using the term "conversion rate."</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
           
@@ -228,44 +258,35 @@
                     <script type="text/javascript">
                         // When the window has finished loading create our google map below
                         google.maps.event.addDomListener(window, 'load', init);
-
                         function init() {
                             // Basic options for a simple Google Map
                             // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
                             var mapOptions = {
                                 // How zoomed in you want the map to start at (always required)
                                 zoom: 15,
-
                                 // The latitude and longitude to center the map (always required)
                                 center: new google.maps.LatLng(29.650198, -82.332740), // ViperQ
-
                                 // How you would like to style the map. 
                                 // This is where you would paste any style found on Snazzy Maps.
                                 styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#ffffff"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#86c883"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}]
                             };
-
                             // Get the HTML DOM element that will contain your map 
                             // We are using a div with id="map" seen below in the <body>
                             var mapElement = document.getElementById('map');
-
                             // Create the Google Map using our element and options defined above
                             var map = new google.maps.Map(mapElement, mapOptions);
-
                             var vqInfo = '<div id="#vqInfo">' +
                                 '<h3>ViperQ</h3>' +
-                                '<p>Address</p>' +
-                                '<p>Address</p>' +
-                                '<p>Address</p>' +
+                                '<p>747 SW 2nd Ave</p>' +
+                                '<p>Suite 340</p>' +
+                                '<p>Gainesville, Fl 32601</p>' +
                                 '<br>' +
-                                '<p>(###) ###-####' +
+                                '<p>(321) 987-9266</p>' +
                                 '</div>';
-
                             var infowindow = new google.maps.InfoWindow({
                             content: vqInfo
                             });
-
                             var customMarker = 'img/location.png';
-
                             // Let's also add a marker while we're at it
                             var marker = new google.maps.Marker({
                                 position: new google.maps.LatLng(29.650198, -82.332740),
@@ -283,7 +304,6 @@
                     <!--<div class="container-fluid" style="margin: 13.6% 0;">
                         <h2 style="color: #fff;">Manifest your ideas.</h2>
                                 <a style="color: #fff;" class="btn btn-lg btn-vq typeform-share" href="https://nbevelock.typeform.com/to/EhpxfO" data-mode="1" target="_blank" title="Tell us about your next big thing">Contact</a>
-
                                 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
                     </div>-->
                     <!-- Change the width and height values to suit you best -->
@@ -302,10 +322,11 @@
                         <a href="#welcome-carousel"><img src="img/VQLogoWhite.png" height="50px" class="img-responsive"></a>
                     </div>
                     <div class="col-sm-2 invisible">
-                        <p>Address Address Address</p>
-                        <p>Address Address Address</p>
+                        <p>747 SW 2nd Ave</p>
+                        <p>Suite 340</p>
+                        <p>Gainesville, Fl 32601</p>
                         <br>
-                        <p><a href="tel:">(###) ###-####</a></p>
+                        <p><a href="tel:">(321) 987-9266</a></p>
                     </div>
                     <div class="col-sm-2">
                         <p><a href="#team">ABOUT</a></p>
@@ -319,12 +340,16 @@
                     </div>
                     <div class="col-sm-2">
                         <p>&copy; 2017 ViperQ</p>
+                        <p><a href="Fomo-Privacy-Policy.pdf" title="Privacy Policy" target="_blank">Privacy Policy</a></p>
+                        <p><a href="Fomo-Terms-of-Use.pdf" title="Terms of Use" target="_blank">Terms of Use</a></p>
                     </div>
                 </div>
         </footer>
         
+        
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+        <script src="js/smooth_scroll.js"></script>
+        <script src="js/touch_hover.js"></script>
     </body>
 </html>
