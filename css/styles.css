@@ -165,8 +165,13 @@ a.carousel-control {
     transition: opacity .5s ease;
 }
 
-#team .imgOverlay:hover {
+#team .imgOverlay:hover, #team i.imgOverlay.hover_effect {
     opacity: 1;
+}
+
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
 }
 
 #team hr {margin: 0 15%; border-color: #FFF;}
@@ -238,3 +243,4 @@ footer p {margin-bottom: 0;}
     #team .team-caption p {font-size: .8em;}
     .white, .black {padding: 10px 0;}
 }
+
